@@ -1,6 +1,6 @@
 - name: Apply common configuration
   hosts: all
   become: true
-  gather_facts: false
+  gather_facts: true
   roles:
     - common
