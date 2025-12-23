@@ -1,6 +1,5 @@
-
 - name: Ensure curl is installed
-  apt:
+  ansible.builtin.apt:
     name: curl
     state: present
-    update_cache: yes
+    update_cache: true
